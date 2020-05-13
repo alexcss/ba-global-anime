@@ -1,0 +1,21 @@
+.transition{
+	display: flex;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	// display: none;
+	pointer-events: none;
+	li{
+		background: $primary-color;
+		flex-grow: 1;
+		// transform: scaleY(0);
+		transform: scaleX(0);
+		transform-origin: 0% 100%; 
+	}
+}
